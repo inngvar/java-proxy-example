@@ -7,7 +7,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example.proxy</groupId>
     <artifactId>java-proxy-example</artifactId>
-
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
